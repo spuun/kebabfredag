@@ -59,11 +59,11 @@ if (config.debug)
 	for (var key in runningServices)
 	{
 		runningServices[key].on('exit', function() {
-			console.log('Service ' + moduleName + ' has exited.');
+			console.log('Service ' + key + ' has exited.');
 		});
 		// watch module files when we're developing so we won't have to restart manually
-		fs.watch(moduleName + '.js', function() {
-			runningServices[moduleName].restart();
+		fs.watch(key + '.js', function() {
+			runningServices[key].restart();
 		});
 	};
 }
