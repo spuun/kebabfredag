@@ -18,7 +18,6 @@ bouncy(function(req, bounce) {
 	{
 		service = 'static';
 	}
-	console.log(service);
 	var reqService = {name: service, version:'0.0.x' };
 	// get services for our request
 	var services = ports.query(reqService.name + '@' + reqService.version);
