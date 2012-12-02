@@ -13,11 +13,7 @@ var ports = seaport.createServer();
 
 // routing
 bouncy(function(req, bounce) {
-	console.log("REQUEST:");
-	console.log(req.headers.host);
-	console.log(req.url);
 	var service = req.headers.host.split('.')[0] || 'static';
-	console.log(service);
 	if (/^www|ere$/.test(service))
 	{
 		service = 'static';
