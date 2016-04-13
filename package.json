@@ -1,0 +1,8 @@
+{
+  "name": "kebabfredag.nu",
+  "description": "Tells you whether it's kebabfredag or not.",
+  "version": "2.0.0",
+  "dependencies": {
+    "jontemplate": "github:spuun/node-jontemplate"
+  }
+}

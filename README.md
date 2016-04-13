@@ -1,4 +1,2 @@
-kebabfredag
-===========
-
-kebabfredag.nu source
+#kebabfredag
+http://ere.kebabfredag.nu source :)

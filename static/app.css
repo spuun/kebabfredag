@@ -1,0 +1,30 @@
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);*/
+body {
+    margin: 0; 
+    padding: 0;
+    font-size: 14px;
+    background-color: #960; 
+}
+.question {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #630;
+}
+.question h1 {
+    font-size: 4em;
+    margin: 0;
+    text-shadow: #C90 0px 1px 0px;
+}
+.question p {
+    font-size: 10em;
+    margin: 0;
+    color: #fff;
+}
+.social {
+    padding: 10px;
+    background-color: #630;
+    border-bottom: 1px solid #C90;
+}
+.twitter-share-button[style] { vertical-align: text-bottom !important; }
