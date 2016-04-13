@@ -15,7 +15,7 @@ app.use(express.static('static'));
 app.get('/', (req, res) => {
 
 	res.render('index', {
-		answer: true	
+		answer: kebabfredag.ere() 
 	});
 });
 
