@@ -9,13 +9,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
 app.set('view cache', false);
 
-app.get('/api', require('./api'));
+app.use('/api', require('./api'));
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
 
 	res.render('index', {
-		answer: kebabfredag.ere() 
+		answer: true	
 	});
 });
 
